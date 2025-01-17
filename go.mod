@@ -1,8 +1,7 @@
 module github.com/blinklabs-io/cardano-node-api
 
 go 1.21
-
-toolchain go1.21.6
+toolchain go1.22.5
 
 require (
 	connectrpc.com/connect v1.16.2
@@ -13,15 +12,15 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/gorilla/websocket v1.5.1
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/penglongli/gin-metrics v0.1.10
+	github.com/penglongli/gin-metrics v0.1.13
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.16.3
 	github.com/utxorpc/go-codegen v0.5.1
 	go.uber.org/automaxprocs v1.5.3
 	go.uber.org/zap v1.27.0
-	golang.org/x/crypto v0.23.0
-	golang.org/x/net v0.25.0
+	golang.org/x/crypto v0.28.0
+	golang.org/x/net v0.30.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -67,9 +66,9 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
-	golang.org/x/tools v0.14.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
+	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
